@@ -1,0 +1,6 @@
+<form th:action="@{|/article/modify/${article.id}|}" method="post">
+   제목<input type="text" name="subject">
+    <br>
+    내용<textarea name="content" id="id" cols="30" rows="10"></textarea>
+    <button type="submit"> 수정 </button>
+</form>
